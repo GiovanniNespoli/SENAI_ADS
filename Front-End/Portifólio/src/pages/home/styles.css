@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+body header {
+    width: 100%;
+    height: 50vh;
+    background: url('../../assets/hondaNSX.jpg');
+}
+
+body header div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.524);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+body header div h1 {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+body main {
+    background-color: #FFFAF0;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body main .informations {
+    width: 70%;
+    height: 30%;
+    background-color: #FAEBD7;
+    display: flex;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;  
+}
+
+body main div.informations div {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body main div.informations div.informationsText {
+    width: 60%;
+    height: 100%;
+    margin-left: 2rem ;
+}
+
+body main div.informations div.informationsText p {
+    color: #000;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1.7rem;
+}
+
+body main div.informations div img {
+    width: 100%;
+    height: 120%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.habilities {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
