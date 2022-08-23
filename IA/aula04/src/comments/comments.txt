@@ -1,0 +1,23 @@
+Nesta aula : estruturas de repetição
+
+if -> 
+
+if: condição
+    blablabla
+
+-----
+
+if condição:
+    blablabla
+elif condição:
+    blablabla
+else:
+    blablabla
+
+
+while -> 
+
+while condição:
+    blablabla
+
+
