@@ -21,7 +21,7 @@ body header {
     display: flex;
     justify-content: space-around;
 
-    background-color: #5F7399;
+    background-color: #0C1D40;
 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -75,9 +75,9 @@ body main div#banner {
 body main div#banner div {
     width: 100%;
     height: 85%;
-    background-color: #cccccc;
+    background-color: #020028;
     border-radius: 20px;
-
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -88,9 +88,7 @@ body main div#banner div img {
     width: 25%;
     height: 80%;
 
-    background-color: rgb(200, 199, 199);
     border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 body main div#banner div div {
@@ -99,6 +97,10 @@ body main div#banner div div {
 
     display: flex;
     flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    animation: enterPage 2s;
 }
 
 body main div#banner div div div.spaceBanner {
@@ -106,14 +108,18 @@ body main div#banner div div div.spaceBanner {
     height: 50%;
 }
 
+body main div#banner div div div.spaceBanner h1 {
+    color: #efefef;
+}
+
 body main div#banner div div div.left {
     display: flex;
     align-items: center;
-
-    animation: ;
 }
 
 body main div#banner div div img {
     height: 200px;
     width: 200px;
+    box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 1px, rgba(255, 255, 255, 0.07) 0px 2px 2px, rgba(255, 255, 255, 0.07) 0px 4px 4px, rgba(255, 255, 255, 0.07) 0px 8px 8px, rgba(255, 255, 255, 0.07) 0px 16px 16px;
+
 }
