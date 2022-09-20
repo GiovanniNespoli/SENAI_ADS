@@ -39,6 +39,12 @@ ul {
 
 li {
     list-style-type: none;
+    transition: 0.2s;
+
+}   
+
+li:hover{
+    transform: scale(1.1);
 }
 
 header div.content {
@@ -73,6 +79,7 @@ header div.content {
     font-size: 24px;
     text-transform: capitalize;
     font-family: Bebas Neue;
+    cursor: pointer;
 }
 
 .clickNav {
